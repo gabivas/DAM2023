@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Seminar03_1098</string>
+
+    <string-array name="clasaAnimal">
+        <item>MAMIFER</item>
+        <item>PASARE</item>
+        <item>PESTE</item>
+    </string-array>
+</resources>
