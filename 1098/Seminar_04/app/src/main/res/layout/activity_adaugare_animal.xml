@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugareAnimalActivity">
+
+    <EditText
+        android:id="@+id/etSpecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Caine"
+        android:hint="Introduceti specia:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/etGreutate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Introduceti greutatea:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSpecie"/>
+
+    <EditText
+        android:id="@+id/etData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="11/10/2021"
+        android:hint="Introduceti data de nastere:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etGreutate"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etData"/>
+
+    <RadioGroup
+        android:id="@+id/rgZona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner">
+
+        <RadioButton
+            android:id="@+id/rbSud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUD" />
+
+        <RadioButton
+            android:id="@+id/rbNord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NORD" />
+        <RadioButton
+            android:id="@+id/rbEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EST" />
+        <RadioButton
+            android:id="@+id/rbVest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEST" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvare animal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgZona"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

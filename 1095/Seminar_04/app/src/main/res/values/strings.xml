@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Seminar03_1095</string>
+    <string name="optiune1">Optiune1</string>
+
+    <string-array name="genuri">
+        <item>COMEDIE</item>
+        <item>DRAMA</item>
+        <item>ACTIUNE</item>
+    </string-array>
+</resources>
