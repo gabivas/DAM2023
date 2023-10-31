@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Seminar03_1098</string>
+    <string name="ERROR_MESSAGE_SPECIA">Ai uitat sa completezi specia</string>
+    <string name="ERROR_MESSAGE_DATA">Ai uitat sa completezi data</string>
+    <string name="ERROR_MESSAGE_GREUTATE">Ai uitat sa completezi greutatea</string>
+    <string name="OPT1">Opt1</string>
+
+    <string-array name="clasaAnimal">
+        <item>MAMIFER</item>
+        <item>PASARE</item>
+        <item>PESTE</item>
+    </string-array>
+</resources>
